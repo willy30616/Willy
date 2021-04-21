@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./JavaScript/jquery-3.4.1.js"></script>
+    <script src="./JavaScript/JavaScript.js"> </script>
+    <script src="./JavaScript/JavaScript2.js"> </script>
+    <title>ATM_Transfer</title>
+
+</head>
+
+<body>
+    <!-- 左側 -->
+    <div id="outsideborder">
+        <!-- <label for="" class="tex"> 轉帳資訊</label> -->
+
+        <label for="display3" class="tex" id="">轉帳帳號:</label>
+        <input id="display3" type="text" value="" placeholder="12**">
+        <br>
+        <label for="display2" class="tex" id="">轉帳金額:</label></label>  
+        <input id="display2" type="text" value="" placeholder="1,000">
+        <br><br>
+        <label for="" class="tex" id="back"> 返回＞</b></label>
+        <br>
+        <table id="keyboard">
+            <tr>
+                <td><button class="btn2">1</button></td>
+                <td><button class="btn2">2</button></td>
+                <td><button class="btn2">3</button></td>
+                <td><button id="cancel">取消</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn2">4</button></td>
+                <td><button class="btn2">5</button></td>
+                <td><button class="btn2">6</button></td>
+                <td><button id="clear">訂正</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn2">7</button></td>
+                <td><button class="btn2">8</button></td>
+                <td><button class="btn2">9</button></td>
+                <td><button id="enter_t">確定</button></td>
+            </tr>
+            <tr>
+                <td><button>&nbsp;</button></td>
+                <td><button class="btn2">0</button></td>
+                <td><button>&nbsp;</button></td>
+                <td><button>&nbsp;</button></td>
+            </tr>
+        </table>
+
+    </div>
+    <!-- 右側 -->
+    <div id="rightsideborder">
+        <h4>狀態Status:</h4>
+        <label for="">帳號:</label>
+        <label id="CardName" for=""> </label> <br>
+
+        <label for="">密碼:</label>
+        <label id="CardPs" for=""> </label> <br>
+
+        <label for="">金額:</label>
+        <label id="CardPice" for=""> </label>
+
+        <br><br>
+
+        <table id="cardAll">
+            <tr>
+                <td id="card1">card1</td>
+                <td id="card2">card2</td>
+                <td id="card3">card3</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="footer">
+        <a href="./Accont.html"><button style="font-size:medium;"> 上一頁</button></a>
+        <!-- <a href="./Accont.html"><button> 下一頁</button></a> -->
+    </div>
+</body>
+
+</html>
